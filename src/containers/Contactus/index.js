@@ -1,13 +1,17 @@
 import React from "react";
 import "./data";
 import "./style.css";
-import contactimg from '../../assets/Images/cntact-img.jpg';
-import { AiOutlineAim,AiOutlineComment,AiOutlineFieldTime } from "react-icons/ai";
+import contactimg from "../../assets/Images/cntact-img.jpg";
+import {
+  AiOutlineAim,
+  AiOutlineComment,
+  AiOutlineFieldTime,
+} from "react-icons/ai";
 
 export default function Contactus() {
   return (
     <div className="contact">
-       <div className="page-title-area">
+      <div className="page-title-area">
         <h1>Contact Us</h1>
       </div>
       <div className="container">
@@ -25,23 +29,22 @@ export default function Contactus() {
           <div className="col-lg-4 col-md-4 col-6">
             <div className="contact-box">
               <div className="icon">
-                  <AiOutlineComment/>
+                <AiOutlineComment />
               </div>
               <h3>Contact</h3>
-              <p>
-                atul@v1ads.com
-              </p>
+              <p>atul@v1ads.com</p>
             </div>
           </div>
 
           <div className="col-lg-4 col-md-4 col-6">
             <div className="contact-box">
               <div className="icon">
-                  <AiOutlineFieldTime/>
+                <AiOutlineFieldTime />
               </div>
               <h3>Hours of Operation</h3>
               <p>
-                Monday - Friday: 10:00 - 19:00 <br /> Sunday & Saturday: 10:30 - 15:00
+                Monday - Friday: 10:00 - 19:00 <br /> Sunday & Saturday: 10:30 -
+                15:00
               </p>
             </div>
           </div>
@@ -51,8 +54,7 @@ export default function Contactus() {
           <h6>GET IN TOUCH</h6>
           <h4>Ready to Get Started?</h4>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna.
+            Empowering your brand with innovative digital marketing strategies to connect and grow.
           </p>
         </div>
 
@@ -62,7 +64,19 @@ export default function Contactus() {
           </div>
           <div className="col-lg-6 col-md-6 col-12">
             <div class="contact-form">
-              <form id="contactForm">
+              <form action="https://formsubmit.co/atul@v1ads.com" method="POST">
+                <input type="hidden" name="_captcha" value="false" />
+                <input
+                  type="hidden"
+                  name="_next"
+                  value="https://yourwebsite.com/thank-you"
+                />
+                <input
+                  type="hidden"
+                  name="_subject"
+                  value="New Contact Form Submission!"
+                />
+
                 <div class="row">
                   <div class="col-lg-6 col-md-6">
                     <div class="form-group">
@@ -71,18 +85,18 @@ export default function Contactus() {
                         name="name"
                         placeholder="Your Name"
                         class="form-control"
-                        value=""
+                        required
                       />
                     </div>
                   </div>
                   <div class="col-lg-6 col-md-6">
                     <div class="form-group">
                       <input
-                        type="text"
+                        type="email"
                         name="email"
                         placeholder="Your email address"
                         class="form-control"
-                        value=""
+                        required
                       />
                     </div>
                   </div>
@@ -93,7 +107,6 @@ export default function Contactus() {
                         name="number"
                         placeholder="Your phone number"
                         class="form-control"
-                        value=""
                       />
                     </div>
                   </div>
@@ -104,19 +117,18 @@ export default function Contactus() {
                         name="subject"
                         placeholder="Your Subject"
                         class="form-control"
-                        value=""
                       />
                     </div>
                   </div>
                   <div class="col-lg-12 col-md-12">
                     <div class="form-group">
                       <textarea
-                        name="text"
+                        name="message"
                         cols="30"
                         rows="5"
                         placeholder="Write your message..."
                         class="form-control"
-                        spellcheck="false"
+                        required
                       ></textarea>
                     </div>
                   </div>
@@ -131,7 +143,6 @@ export default function Contactus() {
           </div>
         </div>
       </div>
-     
     </div>
   );
 }
