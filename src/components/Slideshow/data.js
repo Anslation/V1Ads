@@ -1,5 +1,5 @@
 export const slideshowText ={
     subheadering1: 'GROWTH YOUR BUSINESS',
-    heading:'We Provide Best Digital Marketing Solutions',
-    subheading:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.'
+    heading:'Make your marketing dreams come true',
+    subheading:'Utilize our comprehensive portfolio of marketing services to increase engagement and drive conversions. We have you covered for email, SMS, mobile, video, display, and social media marketing.'
 }

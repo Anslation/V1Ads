@@ -12,7 +12,7 @@ export default function Contactus() {
       </div>
       <div className="container">
         <div className="row">
-          <div className="col-lg-4 col-md-4 col-6">
+          {/* <div className="col-lg-4 col-md-4 col-6">
             <div className="contact-box">
               <div className="icon">
                   <AiOutlineAim/>
@@ -20,7 +20,7 @@ export default function Contactus() {
               <h3>Our Address</h3>
               <p>Chennai, Tamilnadu, <br/> India</p>
             </div>
-          </div>
+          </div> */}
 
           <div className="col-lg-4 col-md-4 col-6">
             <div className="contact-box">
@@ -29,7 +29,7 @@ export default function Contactus() {
               </div>
               <h3>Contact</h3>
               <p>
-                +91 987486540<br /> 04443214560
+                atul@v1ads.com
               </p>
             </div>
           </div>
@@ -131,16 +131,7 @@ export default function Contactus() {
           </div>
         </div>
       </div>
-      <div className="container-fluid pt-5">
-        <div className="map">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248756.11675417118!2d80.06892448836716!3d13.047487785642284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1618387834124!5m2!1sen!2sin"
-            width="100%"
-            height="550"
-            loading="lazy" className="map-style p-0 m-0"
-          ></iframe>
-        </div>
-      </div>
+     
     </div>
   );
 }

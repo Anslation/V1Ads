@@ -13,7 +13,7 @@ function Slideshow({ subheadering1, heading, subheading }) {
               <h6>{slideshowText.subheadering1}</h6>
               <h3>{slideshowText.heading}</h3>
               <p>{slideshowText.subheading}</p>
-              <button className="btn about-btn mt-5 mb-5">About Us</button>
+              {/* <button className="btn about-btn mt-5 mb-5" href='/Aboutus'>About Us</button> */}
             </div>
           </div>
           <div className="col-lg-6 col-md-6 col-12">

@@ -44,7 +44,7 @@ function Home({ header, subheader, subheader1 }) {
                 <AiOutlineRise className="icon1" />
                 <h4>{HomePageText.services_title1}</h4>
                 <p>{HomePageText.services_subheading}</p>
-                <button className="btn learn-more-btn">Learn More</button>
+                {/* <button className="btn learn-more-btn">Learn More</button> */}
               </div>
             </div>
 
@@ -52,8 +52,8 @@ function Home({ header, subheader, subheader1 }) {
               <div className="services-box">
                 <AiOutlineRocket className="icon2" />
                 <h4>{HomePageText.services_title2}</h4>
-                <p>{HomePageText.services_subheading}</p>
-                <button className="btn learn-more-btn">Learn More</button>
+                <p>{HomePageText.services_subheading2}</p>
+                {/* <button className="btn learn-more-btn">Learn More</button> */}
               </div>
             </div>
 
@@ -61,8 +61,8 @@ function Home({ header, subheader, subheader1 }) {
               <div className="services-box">
                 <AiOutlineMail className="icon3" />
                 <h4>{HomePageText.services_title3}</h4>
-                <p>{HomePageText.services_subheading}</p>
-                <button className="btn learn-more-btn">Learn More</button>
+                <p>{HomePageText.services_subheading3}</p>
+                {/* <button className="btn learn-more-btn">Learn More</button> */}
               </div>
             </div>
           </div>
@@ -82,7 +82,7 @@ function Home({ header, subheader, subheader1 }) {
                   <p className="mt-3 text-justify">{HomePageText.about_des1}</p>
                   <p className="text-justify">{HomePageText.about_des2}</p>
 
-                  <button className="btn readmore mt-3">Read More</button>
+                  {/* <button className="btn readmore mt-3">Read More</button> */}
                 </div>
               </div>
             </div>
@@ -103,7 +103,7 @@ function Home({ header, subheader, subheader1 }) {
                   <AiOutlineNotification className="icon1" />
                   <h4>{HomePageText.services_box_title1}</h4>
                   <p>{HomePageText.services_box_des}</p>
-                  <button className="btn learn-more-btn">Learn More</button>
+                  {/* <button className="btn learn-more-btn">Learn More</button> */}
                 </div>
               </div>
 
@@ -111,8 +111,8 @@ function Home({ header, subheader, subheader1 }) {
                 <div className="services-box-home m-3">
                   <AiOutlineFundView className="icon2" />
                   <h4>{HomePageText.services_box_title2}</h4>
-                  <p>{HomePageText.services_box_des}</p>
-                  <button className="btn learn-more-btn">Learn More</button>
+                  <p>{HomePageText.services_box_des2}</p>
+                  {/* <button className="btn learn-more-btn">Learn More</button> */}
                 </div>
               </div>
 
@@ -120,8 +120,8 @@ function Home({ header, subheader, subheader1 }) {
                 <div className="services-box-home m-3">
                   <AiOutlineFileSearch className="icon3" />
                   <h4>{HomePageText.services_box_title3}</h4>
-                  <p>{HomePageText.services_box_des}</p>
-                  <button className="btn learn-more-btn">Learn More</button>
+                  <p>{HomePageText.services_box_des3}</p>
+                  {/* <button className="btn learn-more-btn">Learn More</button> */}
                 </div>
               </div>
 
@@ -129,8 +129,8 @@ function Home({ header, subheader, subheader1 }) {
                 <div className="services-box-home m-3">
                   <AiOutlineTeam className="icon3" />
                   <h4>{HomePageText.services_box_title4}</h4>
-                  <p>{HomePageText.services_box_des}</p>
-                  <button className="btn learn-more-btn">Learn More</button>
+                  <p>{HomePageText.services_box_des4}</p>
+                  {/* <button className="btn learn-more-btn">Learn More</button> */}
                 </div>
               </div>
 
@@ -138,8 +138,8 @@ function Home({ header, subheader, subheader1 }) {
                 <div className="services-box-home m-3">
                   <AiOutlineProject className="icon2" />
                   <h4>{HomePageText.services_box_title5}</h4>
-                  <p>{HomePageText.services_box_des}</p>
-                  <button className="btn learn-more-btn">Learn More</button>
+                  <p>{HomePageText.services_box_des5}</p>
+                  {/* <button className="btn learn-more-btn">Learn More</button> */}
                 </div>
               </div>
 
@@ -147,8 +147,8 @@ function Home({ header, subheader, subheader1 }) {
                 <div className="services-box-home m-3">
                   <AiOutlineSync className="icon1" />
                   <h4>{HomePageText.services_box_title6}</h4>
-                  <p>{HomePageText.services_box_des}</p>
-                  <button className="btn learn-more-btn">Learn More</button>
+                  <p>{HomePageText.services_box_des6}</p>
+                  {/* <button className="btn learn-more-btn">Learn More</button> */}
                 </div>
               </div>
             </div>
@@ -164,21 +164,7 @@ function Home({ header, subheader, subheader1 }) {
                   <h6>TESTIMONIALS</h6>
                   <h4>What Our Clients Are Saying?</h4>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                    natoque penatibus et magnis dis parturient montes, nascetur
-                    ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-                    eu, pretium quis, sem. Nulla consequat massa quis enim.
-                    Donec pede justo, fringilla vel, aliquet nec, vulputate
-                    eget, arcu. In enim justo, rhoncus ut, imperdiet a,
-                    venenatis vitae, justo. Nullam dictum felis eu pede mollis
-                    pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
-                    semper nisi. Aenean vulputate eleifend tellus. Aenean leo
-                    ligula, porttitor eu, consequat vitae, eleifend ac, enim.
-                    Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
-                    tellus. Phasellus viverra nulla ut metus varius laoreet.
-                    Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
-                    augue.
+                    Our experience with V1Ads has been nothing short of exceptional. From boosting our online visibility to driving measurable engagement through targeted campaigns, their strategic approach has delivered impressive results. The team consistently provides creative solutions, insightful analytics, and timely execution that align perfectly with our business goals. We've seen a significant increase in website traffic, lead generation, and overall brand presence since partnering with them.
                   </p>
                 </div>
               </div>
@@ -190,7 +176,7 @@ function Home({ header, subheader, subheader1 }) {
         </div>
 
         {/* Header 5 team */}
-        <div className="hometeam">
+        {/* <div className="hometeam">
           <div className="container">
             <div className="row">
               <div className="col-lg-6 col-md-6 col-6">
@@ -290,10 +276,10 @@ function Home({ header, subheader, subheader1 }) {
               
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* header 6 price */}
-        <div className="homeprice">
+        {/* <div className="homeprice">
           <div className="container">
             <div className="">
               <h6>PRICING</h6>
@@ -376,7 +362,7 @@ function Home({ header, subheader, subheader1 }) {
           </div>
 
          
-        </div>
+        </div> */}
       </section>
     </div>
   );

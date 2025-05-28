@@ -10,8 +10,7 @@ export default function Footer() {
             <h6>Newsletter</h6>
             <h4>Subscribe To Our Newsletter</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Subscribe to V1Ads' newsletter for the latest digital marketing tips, trends, and strategies to grow your brand online.
             </p>
           </div>
           <form class="newsletter-form">
@@ -34,45 +33,35 @@ export default function Footer() {
             <div className="col-lg-4 col-md-6 col-12">
               <h3>Aboutus</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco{" "}
+                V1Ads is a results-driven digital marketing agency committed to helping businesses grow. We craft tailored strategies to boost online presence, generate quality leads, and deliver measurable growth with a personalized approach.
               </p>
             </div>
             <div className="col-lg-2 col-md-6 col-12">
               <h3>Links</h3>
               <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/Aboutus">About Us</a></li>
-                <li><a href="/Services">Services</a></li>
-                <li><a href="/Price">Price</a></li>
-                
+                <li>
+                  <a href="/">Home</a>
+                </li>
+                <li>
+                  <a href="/Aboutus">About Us</a>
+                </li>
+                <li>
+                  <a href="/Contactus">Contact Us</a>
+                </li>
               </ul>
             </div>
-            <div className="col-lg-2 col-md-6 col-12">
-              <h3> Links</h3>
-              <ul>
-                <li><a href="/">Career</a></li>
-                <li><a href="/team">Team</a></li>
-                <li><a href="/Contactus">Contact Us</a></li>
-                <li><a href="/">FAQ</a></li>
-              </ul>
-            </div>
+           
             <div className="col-lg-4 col-md-6 col-12">
-              <h3>Address</h3>
+              <h3>Contact</h3>
               <ul>
-                <li>Chennai, Tamilnadu, India</li>
-                <li>+91 9874563210</li>
-                <li>contact@gmail.com</li>
-                <li>+3214569870</li>
+                
+                <li>atul@v1ads.com</li>
               </ul>
             </div>
           </div>
         </div>
-        <hr/>
-        <div className="footer-end">
-<h6 className="text-center">Design & Developed by Prabudevarajan</h6>
-        </div>
+        <hr />
+       
       </div>
     </div>
   );
