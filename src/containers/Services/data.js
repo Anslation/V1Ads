@@ -2,7 +2,7 @@ export const ServicesText ={
    
     serviceshome_subheader:'Our SERVICES',
     serviceshome_header:'Let’s Check Our Services',
-    serviceshome_subheader1:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.',
+    serviceshome_subheader1:'V1Ads is a digital marketing company that helps businesses reach their goals by providing various digital marketing services.',
 
     services_box_title1:'Social Media Marketing',
     services_box_des:'We help you build a strong presence on platforms like Instagram, Facebook, and LinkedIn. Our strategies increase engagement, brand awareness, and customer loyalty.',
