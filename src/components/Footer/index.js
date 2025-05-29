@@ -7,11 +7,12 @@ export default function Footer() {
       <div className="newsletter">
         <div className="container">
           <div className="text-center">
-            <h6>Newsletter</h6>
-            <h4>Subscribe To Our Newsletter</h4>
+            <h6>Stay Updated</h6>
+            <h4>Join the V1Ads Community</h4>
             <p>
-              Subscribe to V1Ads' newsletter for the latest digital marketing
-              tips, trends, and strategies to grow your brand online.
+              Get the latest insights, digital marketing tips, and growth
+              strategies delivered straight to your inbox. Stay ahead with
+              V1Ads.
             </p>
           </div>
           <form
