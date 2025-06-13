@@ -8,7 +8,7 @@ import Aboutus from './containers/Aboutus';
 import Team from './containers/Team';
 import Services from './containers/Services';
 import Contactus from './containers/Contactus';
-import Notfound from './containers/Notfound';
+import Notfound from './containers/Notfound' ;
 import NewsLetters from './components/NewsLetters';
 import Price from './containers/Price';
 
