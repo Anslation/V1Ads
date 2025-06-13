@@ -3,7 +3,6 @@ import "./data";
 import "./style.css";
 import contactimg from "../../assets/Images/cntact-img.jpg";
 import {
-  AiOutlineAim,
   AiOutlineComment,
   AiOutlineFieldTime,
 } from "react-icons/ai";

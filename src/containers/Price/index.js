@@ -1,18 +1,10 @@
 import React from 'react'
 
 import {
-    AiOutlineRocket,
     AiOutlineSketch,
-    AiOutlineRise,
     AiOutlineSend,
-    AiOutlineMail,
     AiOutlineBlock,
-    AiOutlineNotification,
-    AiOutlineFileSearch,
-    AiOutlineTeam,
-    AiOutlineSync,
-    AiOutlineFundView,
-    AiOutlineProject,
+
   } from "react-icons/ai";
 
   
