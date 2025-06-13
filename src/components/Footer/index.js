@@ -12,7 +12,7 @@ export default function Footer() {
             <p>
               Get the latest insights, digital marketing tips, and growth
               strategies delivered straight to your inbox. Stay ahead with
-              V1Ads.
+              V1Ads. 
             </p>
           </div>
           <form
